@@ -1,0 +1,18 @@
+[2024-09-07 02:41:31.472 GMT 	WARNING 	ClientCnxn 	Client session timed out, have not heard from server in 32187ms for sessionid 0x1000003919d0005] 	
+[2024-09-07 02:41:31.472 GMT 	WARNING 	ClientCnxn 	Client session timed out, have not heard from server in 31964ms for sessionid 0x1000003919d0006] 	
+[2024-09-07 02:41:32.949 GMT 	WARNING 	ClientCnxn 	Unable to reconnect to ZooKeeper service, session 0x1000003919d0005 has expired] 	
+[2024-09-07 02:41:32.954 GMT 	WARNING 	ClientCnxn 	!!!Session 0x1000003919d0005 for server {127.0.0.1:2181}, unexpected error, closing socket connection and attempting reconnect] 	
+Exc level 0: org.apache.zookeeper.ClientCnxn+SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x1000003919d0005 has expired
+   at org.apache.zookeeper.ClientCnxn.onConnected(Int32 _negotiatedSessionTimeout, Int64 _sessionId, Byte[] _sessionPasswd, Boolean isRO)
+   at org.apache.zookeeper.ClientCnxnSocket.readConnectResult()
+   at org.apache.zookeeper.ClientCnxnSocketNIO.doIO()
+   at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(Int32 waitTimeOut)
+   at org.apache.zookeeper.ClientCnxn.startSendTask()
+[2024-09-07 02:41:33.570 GMT 	WARNING 	ClientCnxn 	Unable to reconnect to ZooKeeper service, session 0x1000003919d0006 has expired] 	
+[2024-09-07 02:41:33.575 GMT 	WARNING 	ClientCnxn 	!!!Session 0x1000003919d0006 for server {127.0.0.1:2181}, unexpected error, closing socket connection and attempting reconnect] 	
+Exc level 0: org.apache.zookeeper.ClientCnxn+SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x1000003919d0006 has expired
+   at org.apache.zookeeper.ClientCnxn.onConnected(Int32 _negotiatedSessionTimeout, Int64 _sessionId, Byte[] _sessionPasswd, Boolean isRO)
+   at org.apache.zookeeper.ClientCnxnSocket.readConnectResult()
+   at org.apache.zookeeper.ClientCnxnSocketNIO.doIO()
+   at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(Int32 waitTimeOut)
+   at org.apache.zookeeper.ClientCnxn.startSendTask()
