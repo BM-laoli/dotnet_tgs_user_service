@@ -129,9 +129,8 @@ if (app.Environment.IsDevelopment())
 
 app.RequestLoggingMiddleware();
 app.UseHttpsRedirection();
-app.UseRequestCulture();
+// app.UseRequestCulture();
 app.ExceptionHandlingMiddleware();
-
 
 app.MapControllers();
 

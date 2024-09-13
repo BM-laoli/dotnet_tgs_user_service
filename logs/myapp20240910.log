@@ -1,0 +1,525 @@
+2024-09-10 00:01:11.499 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-10 00:01:11.562 +08:00 [DBG] Hosting starting
+2024-09-10 00:01:11.583 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-10 00:01:11.588 +08:00 [DBG] Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-1f5b48d3-049f-4ca0-b64e-39c9d1ad46c0.xml'.
+2024-09-10 00:01:11.593 +08:00 [DBG] Found key {1f5b48d3-049f-4ca0-b64e-39c9d1ad46c0}.
+2024-09-10 00:01:11.598 +08:00 [DBG] Considering key {1f5b48d3-049f-4ca0-b64e-39c9d1ad46c0} with expiration date 2024-12-06 02:37:42Z as default key.
+2024-09-10 00:01:11.599 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-10 00:01:11.600 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-09-10 00:01:11.601 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-10 00:01:11.603 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-09-10 00:01:11.604 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-09-10 00:01:11.605 +08:00 [DBG] Using key {1f5b48d3-049f-4ca0-b64e-39c9d1ad46c0} as the default key.
+2024-09-10 00:01:11.605 +08:00 [DBG] Key ring with default key {1f5b48d3-049f-4ca0-b64e-39c9d1ad46c0} was loaded during application startup.
+2024-09-10 00:01:11.654 +08:00 [INF] Now listening on: http://localhost:5102
+2024-09-10 00:01:11.654 +08:00 [DBG] Loaded hosting startup assembly user_service_api
+2024-09-10 00:01:11.654 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-10 00:01:11.654 +08:00 [INF] Hosting environment: Development
+2024-09-10 00:01:11.654 +08:00 [INF] Content root path: E:\Origin\TG_Shoping_proejct\project\service\user_service_api
+2024-09-10 00:01:11.654 +08:00 [DBG] Hosting started
+2024-09-10 00:01:12.015 +08:00 [DBG] Connection id "0HN6GT2G4PSAD" received FIN.
+2024-09-10 00:01:12.019 +08:00 [DBG] Connection id "0HN6GT2G4PSAD" accepted.
+2024-09-10 00:01:12.019 +08:00 [DBG] Connection id "0HN6GT2G4PSAD" started.
+2024-09-10 00:01:12.023 +08:00 [DBG] Connection id "0HN6GT2G4PSAD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-10 00:01:12.024 +08:00 [DBG] Connection id "0HN6GT2G4PSAD" disconnecting.
+2024-09-10 00:01:12.026 +08:00 [DBG] Connection id "0HN6GT2G4PSAD" stopped.
+2024-09-10 00:01:12.096 +08:00 [DBG] Connection id "0HN6GT2G4PSAE" accepted.
+2024-09-10 00:01:12.096 +08:00 [DBG] Connection id "0HN6GT2G4PSAE" started.
+2024-09-10 00:01:12.096 +08:00 [DBG] Connection id "0HN6GT2G4PSAF" accepted.
+2024-09-10 00:01:12.096 +08:00 [DBG] Connection id "0HN6GT2G4PSAF" started.
+2024-09-10 00:01:12.129 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/swagger/index.html - null null
+2024-09-10 00:01:12.130 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-10 00:01:12.142 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-09-10 00:01:12.143 +08:00 [DBG] Request did not match any endpoints
+2024-09-10 00:01:12.199 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-10 00:01:12.268 +08:00 [DBG] Connection id "0HN6GT2G4PSAE" completed keep alive response.
+2024-09-10 00:01:12.269 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/swagger/index.html - 200 null text/html;charset=utf-8 140.4318ms
+2024-09-10 00:01:12.360 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/swagger/css/modules/laydate/default/laydate.css?v=5.0.9 - null null
+2024-09-10 00:01:12.360 +08:00 [DBG] No candidates found for the request path '/swagger/css/modules/laydate/default/laydate.css'
+2024-09-10 00:01:12.360 +08:00 [DBG] Request did not match any endpoints
+2024-09-10 00:01:12.361 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-10 00:01:12.366 +08:00 [DBG] Connection id "0HN6GT2G4PSAG" accepted.
+2024-09-10 00:01:12.367 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/swagger/css/modules/layer/default/layer.css?v=3.1.1 - null null
+2024-09-10 00:01:12.367 +08:00 [DBG] No candidates found for the request path '/swagger/css/modules/layer/default/layer.css'
+2024-09-10 00:01:12.370 +08:00 [DBG] Request did not match any endpoints
+2024-09-10 00:01:12.371 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-10 00:01:12.371 +08:00 [DBG] Connection id "0HN6GT2G4PSAG" started.
+2024-09-10 00:01:12.372 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/swagger/css/modules/code.css - null null
+2024-09-10 00:01:12.372 +08:00 [DBG] No candidates found for the request path '/swagger/css/modules/code.css'
+2024-09-10 00:01:12.372 +08:00 [DBG] Request did not match any endpoints
+2024-09-10 00:01:12.374 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-10 00:01:12.377 +08:00 [DBG] The request path /css/modules/laydate/default/laydate.css does not match an existing file
+2024-09-10 00:01:12.377 +08:00 [DBG] The request path /css/modules/layer/default/layer.css does not match an existing file
+2024-09-10 00:01:12.377 +08:00 [DBG] The request path /css/modules/code.css does not match an existing file
+2024-09-10 00:01:12.378 +08:00 [WRN] Failed to determine the https port for redirect.
+2024-09-10 00:01:12.379 +08:00 [DBG] Connection id "0HN6GT2G4PSAF" completed keep alive response.
+2024-09-10 00:01:12.379 +08:00 [DBG] Connection id "0HN6GT2G4PSAG" completed keep alive response.
+2024-09-10 00:01:12.379 +08:00 [DBG] Connection id "0HN6GT2G4PSAE" completed keep alive response.
+2024-09-10 00:01:12.380 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/swagger/css/modules/layer/default/layer.css?v=3.1.1 - 404 0 null 12.2027ms
+2024-09-10 00:01:12.380 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/swagger/css/modules/code.css - 404 0 null 7.3676ms
+2024-09-10 00:01:12.380 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/swagger/css/modules/laydate/default/laydate.css?v=5.0.9 - 404 0 null 19.7361ms
+2024-09-10 00:01:12.380 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5102/swagger/css/modules/code.css, Response status code: 404
+2024-09-10 00:01:12.380 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5102/swagger/css/modules/layer/default/layer.css, Response status code: 404
+2024-09-10 00:01:12.380 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5102/swagger/css/modules/laydate/default/laydate.css, Response status code: 404
+2024-09-10 00:01:12.603 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/swagger/v1/swagger.json - null null
+2024-09-10 00:01:12.603 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-09-10 00:01:12.603 +08:00 [DBG] Request did not match any endpoints
+2024-09-10 00:01:12.604 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-10 00:01:12.774 +08:00 [DBG] Connection id "0HN6GT2G4PSAF" completed keep alive response.
+2024-09-10 00:01:12.774 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 170.8482ms
+2024-09-10 00:01:17.814 +08:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5102/api/v1/user_service/user/cancel/7 - null null
+2024-09-10 00:01:17.819 +08:00 [DBG] 1 candidate(s) found for the request path '/api/v1/user_service/user/cancel/7'
+2024-09-10 00:01:17.821 +08:00 [DBG] Endpoint 'user_service_api.Controllers.UserController.DeleteUser (user_service_api)' with route pattern 'api/v1/user_service/user/cancel/{id}' is valid for the request path '/api/v1/user_service/user/cancel/7'
+2024-09-10 00:01:17.821 +08:00 [DBG] Request matched endpoint 'user_service_api.Controllers.UserController.DeleteUser (user_service_api)'
+2024-09-10 00:01:17.822 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-10 00:01:17.822 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-09-10 00:01:17.823 +08:00 [INF] Executing endpoint 'user_service_api.Controllers.UserController.DeleteUser (user_service_api)'
+2024-09-10 00:01:17.835 +08:00 [INF] Route matched with {action = "DeleteUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Boolean]] DeleteUser(Int32) on controller user_service_api.Controllers.UserController (user_service_api).
+2024-09-10 00:01:17.836 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-10 00:01:17.836 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-10 00:01:17.836 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-10 00:01:17.837 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-10 00:01:17.837 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-10 00:01:17.837 +08:00 [DBG] Executing controller factory for controller user_service_api.Controllers.UserController (user_service_api)
+2024-09-10 00:01:18.048 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-10 00:01:18.403 +08:00 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.0' with options: ServerVersion=9.0.1-mysql 
+2024-09-10 00:01:18.409 +08:00 [DBG] Creating DbConnection.
+2024-09-10 00:01:18.412 +08:00 [DBG] Created DbConnection. (4ms).
+2024-09-10 00:01:18.593 +08:00 [DBG] Executed controller factory for controller user_service_api.Controllers.UserController (user_service_api)
+2024-09-10 00:01:18.596 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-09-10 00:01:18.597 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-09-10 00:01:18.597 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-09-10 00:01:18.598 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-09-10 00:01:18.598 +08:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-09-10 00:01:18.599 +08:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-09-10 00:01:18.721 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-10 00:01:18.722 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-09-10 00:01:18.723 +08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-09-10 00:01:18.723 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-10 00:01:18.723 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-10 00:01:18.723 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-10 00:01:18.723 +08:00 [INF] Executing OkObjectResult, writing value of type 'user_service_api.Dto.ApiResponse`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-10 00:01:18.730 +08:00 [INF] Executed action user_service_api.Controllers.UserController.DeleteUser (user_service_api) in 891.2697ms
+2024-09-10 00:01:18.730 +08:00 [INF] Executed endpoint 'user_service_api.Controllers.UserController.DeleteUser (user_service_api)'
+2024-09-10 00:01:18.732 +08:00 [DBG] Connection id "0HN6GT2G4PSAF" completed keep alive response.
+2024-09-10 00:01:18.733 +08:00 [DBG] 'ApplicationDbContext' disposed.
+2024-09-10 00:01:18.737 +08:00 [DBG] Disposing connection to database 'tg_shoping' on server 'localhost'.
+2024-09-10 00:01:18.741 +08:00 [DBG] Disposed connection to database 'tg_shoping' on server 'localhost' (2ms).
+2024-09-10 00:01:18.741 +08:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5102/api/v1/user_service/user/cancel/7 - 200 64 application/json; charset=utf-8 927.6348ms
+2024-09-10 00:03:06.038 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-10 00:03:06.101 +08:00 [DBG] Hosting starting
+2024-09-10 00:03:06.125 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-10 00:03:06.130 +08:00 [DBG] Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-1f5b48d3-049f-4ca0-b64e-39c9d1ad46c0.xml'.
+2024-09-10 00:03:06.135 +08:00 [DBG] Found key {1f5b48d3-049f-4ca0-b64e-39c9d1ad46c0}.
+2024-09-10 00:03:06.140 +08:00 [DBG] Considering key {1f5b48d3-049f-4ca0-b64e-39c9d1ad46c0} with expiration date 2024-12-06 02:37:42Z as default key.
+2024-09-10 00:03:06.141 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-10 00:03:06.142 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-09-10 00:03:06.143 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-10 00:03:06.145 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-09-10 00:03:06.146 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-09-10 00:03:06.147 +08:00 [DBG] Using key {1f5b48d3-049f-4ca0-b64e-39c9d1ad46c0} as the default key.
+2024-09-10 00:03:06.147 +08:00 [DBG] Key ring with default key {1f5b48d3-049f-4ca0-b64e-39c9d1ad46c0} was loaded during application startup.
+2024-09-10 00:03:06.201 +08:00 [INF] Now listening on: http://localhost:5102
+2024-09-10 00:03:06.201 +08:00 [DBG] Loaded hosting startup assembly user_service_api
+2024-09-10 00:03:06.201 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-10 00:03:06.201 +08:00 [INF] Hosting environment: Development
+2024-09-10 00:03:06.201 +08:00 [INF] Content root path: E:\Origin\TG_Shoping_proejct\project\service\user_service_api
+2024-09-10 00:03:06.201 +08:00 [DBG] Hosting started
+2024-09-10 00:03:06.467 +08:00 [DBG] Connection id "0HN6GT3I89NBV" received FIN.
+2024-09-10 00:03:06.470 +08:00 [DBG] Connection id "0HN6GT3I89NBV" accepted.
+2024-09-10 00:03:06.471 +08:00 [DBG] Connection id "0HN6GT3I89NBV" started.
+2024-09-10 00:03:06.475 +08:00 [DBG] Connection id "0HN6GT3I89NBV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-10 00:03:06.476 +08:00 [DBG] Connection id "0HN6GT3I89NBV" disconnecting.
+2024-09-10 00:03:06.478 +08:00 [DBG] Connection id "0HN6GT3I89NBV" stopped.
+2024-09-10 00:03:06.545 +08:00 [DBG] Connection id "0HN6GT3I89NC0" accepted.
+2024-09-10 00:03:06.545 +08:00 [DBG] Connection id "0HN6GT3I89NC0" started.
+2024-09-10 00:03:06.546 +08:00 [DBG] Connection id "0HN6GT3I89NC1" accepted.
+2024-09-10 00:03:06.546 +08:00 [DBG] Connection id "0HN6GT3I89NC1" started.
+2024-09-10 00:03:06.576 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/swagger/index.html - null null
+2024-09-10 00:03:06.577 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-10 00:03:06.588 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-09-10 00:03:06.588 +08:00 [DBG] Request did not match any endpoints
+2024-09-10 00:03:06.642 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-10 00:03:06.705 +08:00 [DBG] Connection id "0HN6GT3I89NC0" completed keep alive response.
+2024-09-10 00:03:06.706 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/swagger/index.html - 200 null text/html;charset=utf-8 130.0579ms
+2024-09-10 00:03:06.791 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/swagger/css/modules/laydate/default/laydate.css?v=5.0.9 - null null
+2024-09-10 00:03:06.791 +08:00 [DBG] No candidates found for the request path '/swagger/css/modules/laydate/default/laydate.css'
+2024-09-10 00:03:06.791 +08:00 [DBG] Request did not match any endpoints
+2024-09-10 00:03:06.792 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-10 00:03:06.794 +08:00 [DBG] The request path /css/modules/laydate/default/laydate.css does not match an existing file
+2024-09-10 00:03:06.796 +08:00 [WRN] Failed to determine the https port for redirect.
+2024-09-10 00:03:06.796 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/swagger/css/modules/layer/default/layer.css?v=3.1.1 - null null
+2024-09-10 00:03:06.796 +08:00 [DBG] No candidates found for the request path '/swagger/css/modules/layer/default/layer.css'
+2024-09-10 00:03:06.796 +08:00 [DBG] Request did not match any endpoints
+2024-09-10 00:03:06.797 +08:00 [DBG] Connection id "0HN6GT3I89NC2" accepted.
+2024-09-10 00:03:06.797 +08:00 [DBG] Connection id "0HN6GT3I89NC2" started.
+2024-09-10 00:03:06.798 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/swagger/css/modules/code.css - null null
+2024-09-10 00:03:06.798 +08:00 [DBG] No candidates found for the request path '/swagger/css/modules/code.css'
+2024-09-10 00:03:06.798 +08:00 [DBG] Request did not match any endpoints
+2024-09-10 00:03:06.798 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-10 00:03:06.798 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-10 00:03:06.798 +08:00 [DBG] The request path /css/modules/layer/default/layer.css does not match an existing file
+2024-09-10 00:03:06.798 +08:00 [DBG] The request path /css/modules/code.css does not match an existing file
+2024-09-10 00:03:06.799 +08:00 [DBG] Connection id "0HN6GT3I89NC1" completed keep alive response.
+2024-09-10 00:03:06.799 +08:00 [DBG] Connection id "0HN6GT3I89NC2" completed keep alive response.
+2024-09-10 00:03:06.799 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/swagger/css/modules/code.css - 404 0 null 0.9844ms
+2024-09-10 00:03:06.799 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/swagger/css/modules/layer/default/layer.css?v=3.1.1 - 404 0 null 2.3489ms
+2024-09-10 00:03:06.799 +08:00 [DBG] Connection id "0HN6GT3I89NC0" completed keep alive response.
+2024-09-10 00:03:06.800 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/swagger/css/modules/laydate/default/laydate.css?v=5.0.9 - 404 0 null 8.6077ms
+2024-09-10 00:03:06.800 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5102/swagger/css/modules/code.css, Response status code: 404
+2024-09-10 00:03:06.800 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5102/swagger/css/modules/laydate/default/laydate.css, Response status code: 404
+2024-09-10 00:03:06.800 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5102/swagger/css/modules/layer/default/layer.css, Response status code: 404
+2024-09-10 00:03:07.057 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/swagger/v1/swagger.json - null null
+2024-09-10 00:03:07.057 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-09-10 00:03:07.057 +08:00 [DBG] Request did not match any endpoints
+2024-09-10 00:03:07.058 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-10 00:03:07.227 +08:00 [DBG] Connection id "0HN6GT3I89NC0" completed keep alive response.
+2024-09-10 00:03:07.227 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 169.862ms
+2024-09-10 00:03:12.871 +08:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5102/api/v1/user_service/user/cancel/7 - null null
+2024-09-10 00:03:12.875 +08:00 [DBG] 1 candidate(s) found for the request path '/api/v1/user_service/user/cancel/7'
+2024-09-10 00:03:12.877 +08:00 [DBG] Endpoint 'user_service_api.Controllers.UserController.DeleteUser (user_service_api)' with route pattern 'api/v1/user_service/user/cancel/{id}' is valid for the request path '/api/v1/user_service/user/cancel/7'
+2024-09-10 00:03:12.878 +08:00 [DBG] Request matched endpoint 'user_service_api.Controllers.UserController.DeleteUser (user_service_api)'
+2024-09-10 00:03:12.878 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-10 00:03:12.879 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-09-10 00:03:12.879 +08:00 [INF] Executing endpoint 'user_service_api.Controllers.UserController.DeleteUser (user_service_api)'
+2024-09-10 00:03:12.892 +08:00 [INF] Route matched with {action = "DeleteUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Boolean]] DeleteUser(Int32) on controller user_service_api.Controllers.UserController (user_service_api).
+2024-09-10 00:03:12.893 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-10 00:03:12.893 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-10 00:03:12.893 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-10 00:03:12.893 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-10 00:03:12.893 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-10 00:03:12.894 +08:00 [DBG] Executing controller factory for controller user_service_api.Controllers.UserController (user_service_api)
+2024-09-10 00:03:13.114 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-10 00:03:13.474 +08:00 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.0' with options: ServerVersion=9.0.1-mysql 
+2024-09-10 00:03:13.481 +08:00 [DBG] Creating DbConnection.
+2024-09-10 00:03:13.484 +08:00 [DBG] Created DbConnection. (4ms).
+2024-09-10 00:03:13.681 +08:00 [DBG] Executed controller factory for controller user_service_api.Controllers.UserController (user_service_api)
+2024-09-10 00:03:13.684 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-09-10 00:03:13.685 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-09-10 00:03:13.686 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-09-10 00:03:13.686 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-09-10 00:03:13.686 +08:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-09-10 00:03:13.687 +08:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-09-10 00:03:14.000 +08:00 [INF] Executed action user_service_api.Controllers.UserController.DeleteUser (user_service_api) in 1104.365ms
+2024-09-10 00:03:14.000 +08:00 [INF] Executed endpoint 'user_service_api.Controllers.UserController.DeleteUser (user_service_api)'
+2024-09-10 00:03:14.035 +08:00 [DBG] Connection id "0HN6GT3I89NC0" completed keep alive response.
+2024-09-10 00:03:14.037 +08:00 [DBG] 'ApplicationDbContext' disposed.
+2024-09-10 00:03:14.040 +08:00 [DBG] Disposing connection to database 'tg_shoping' on server 'localhost'.
+2024-09-10 00:03:14.044 +08:00 [DBG] Disposed connection to database 'tg_shoping' on server 'localhost' (2ms).
+2024-09-10 00:03:14.044 +08:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5102/api/v1/user_service/user/cancel/7 - 500 212 application/json; charset=utf-8 1173.3183ms
+2024-09-10 00:03:29.928 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-10 00:03:29.987 +08:00 [DBG] Hosting starting
+2024-09-10 00:03:30.009 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-10 00:03:30.013 +08:00 [DBG] Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-1f5b48d3-049f-4ca0-b64e-39c9d1ad46c0.xml'.
+2024-09-10 00:03:30.018 +08:00 [DBG] Found key {1f5b48d3-049f-4ca0-b64e-39c9d1ad46c0}.
+2024-09-10 00:03:30.023 +08:00 [DBG] Considering key {1f5b48d3-049f-4ca0-b64e-39c9d1ad46c0} with expiration date 2024-12-06 02:37:42Z as default key.
+2024-09-10 00:03:30.025 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-10 00:03:30.026 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-09-10 00:03:30.026 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-10 00:03:30.029 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-09-10 00:03:30.029 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-09-10 00:03:30.030 +08:00 [DBG] Using key {1f5b48d3-049f-4ca0-b64e-39c9d1ad46c0} as the default key.
+2024-09-10 00:03:30.030 +08:00 [DBG] Key ring with default key {1f5b48d3-049f-4ca0-b64e-39c9d1ad46c0} was loaded during application startup.
+2024-09-10 00:03:30.080 +08:00 [INF] Now listening on: http://localhost:5102
+2024-09-10 00:03:30.080 +08:00 [DBG] Loaded hosting startup assembly user_service_api
+2024-09-10 00:03:30.080 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-10 00:03:30.080 +08:00 [INF] Hosting environment: Development
+2024-09-10 00:03:30.080 +08:00 [INF] Content root path: E:\Origin\TG_Shoping_proejct\project\service\user_service_api
+2024-09-10 00:03:30.080 +08:00 [DBG] Hosting started
+2024-09-10 00:03:30.310 +08:00 [DBG] Connection id "0HN6GT3PBM4GH" received FIN.
+2024-09-10 00:03:30.313 +08:00 [DBG] Connection id "0HN6GT3PBM4GH" accepted.
+2024-09-10 00:03:30.314 +08:00 [DBG] Connection id "0HN6GT3PBM4GH" started.
+2024-09-10 00:03:30.318 +08:00 [DBG] Connection id "0HN6GT3PBM4GH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-10 00:03:30.319 +08:00 [DBG] Connection id "0HN6GT3PBM4GH" disconnecting.
+2024-09-10 00:03:30.321 +08:00 [DBG] Connection id "0HN6GT3PBM4GH" stopped.
+2024-09-10 00:03:30.385 +08:00 [DBG] Connection id "0HN6GT3PBM4GI" accepted.
+2024-09-10 00:03:30.386 +08:00 [DBG] Connection id "0HN6GT3PBM4GI" started.
+2024-09-10 00:03:30.389 +08:00 [DBG] Connection id "0HN6GT3PBM4GJ" accepted.
+2024-09-10 00:03:30.390 +08:00 [DBG] Connection id "0HN6GT3PBM4GJ" started.
+2024-09-10 00:03:30.415 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/swagger/index.html - null null
+2024-09-10 00:03:30.416 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-10 00:03:30.426 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-09-10 00:03:30.427 +08:00 [DBG] Request did not match any endpoints
+2024-09-10 00:03:30.479 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-10 00:03:30.541 +08:00 [DBG] Connection id "0HN6GT3PBM4GI" completed keep alive response.
+2024-09-10 00:03:30.542 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/swagger/index.html - 200 null text/html;charset=utf-8 128.1428ms
+2024-09-10 00:03:30.622 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/swagger/css/modules/laydate/default/laydate.css?v=5.0.9 - null null
+2024-09-10 00:03:30.622 +08:00 [DBG] No candidates found for the request path '/swagger/css/modules/laydate/default/laydate.css'
+2024-09-10 00:03:30.622 +08:00 [DBG] Request did not match any endpoints
+2024-09-10 00:03:30.623 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-10 00:03:30.625 +08:00 [DBG] The request path /css/modules/laydate/default/laydate.css does not match an existing file
+2024-09-10 00:03:30.626 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/swagger/css/modules/layer/default/layer.css?v=3.1.1 - null null
+2024-09-10 00:03:30.626 +08:00 [DBG] No candidates found for the request path '/swagger/css/modules/layer/default/layer.css'
+2024-09-10 00:03:30.626 +08:00 [DBG] Request did not match any endpoints
+2024-09-10 00:03:30.627 +08:00 [DBG] Connection id "0HN6GT3PBM4GK" accepted.
+2024-09-10 00:03:30.627 +08:00 [DBG] Connection id "0HN6GT3PBM4GK" started.
+2024-09-10 00:03:30.627 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/swagger/css/modules/code.css - null null
+2024-09-10 00:03:30.628 +08:00 [DBG] No candidates found for the request path '/swagger/css/modules/code.css'
+2024-09-10 00:03:30.628 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-10 00:03:30.628 +08:00 [DBG] Request did not match any endpoints
+2024-09-10 00:03:30.628 +08:00 [WRN] Failed to determine the https port for redirect.
+2024-09-10 00:03:30.628 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-10 00:03:30.628 +08:00 [DBG] The request path /css/modules/layer/default/layer.css does not match an existing file
+2024-09-10 00:03:30.628 +08:00 [DBG] The request path /css/modules/code.css does not match an existing file
+2024-09-10 00:03:30.629 +08:00 [DBG] Connection id "0HN6GT3PBM4GI" completed keep alive response.
+2024-09-10 00:03:30.629 +08:00 [DBG] Connection id "0HN6GT3PBM4GJ" completed keep alive response.
+2024-09-10 00:03:30.629 +08:00 [DBG] Connection id "0HN6GT3PBM4GK" completed keep alive response.
+2024-09-10 00:03:30.629 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/swagger/css/modules/code.css - 404 0 null 1.622ms
+2024-09-10 00:03:30.629 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/swagger/css/modules/laydate/default/laydate.css?v=5.0.9 - 404 0 null 7.1065ms
+2024-09-10 00:03:30.629 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/swagger/css/modules/layer/default/layer.css?v=3.1.1 - 404 0 null 2.9077ms
+2024-09-10 00:03:30.635 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5102/swagger/css/modules/code.css, Response status code: 404
+2024-09-10 00:03:30.635 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5102/swagger/css/modules/layer/default/layer.css, Response status code: 404
+2024-09-10 00:03:30.635 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5102/swagger/css/modules/laydate/default/laydate.css, Response status code: 404
+2024-09-10 00:03:30.879 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/swagger/v1/swagger.json - null null
+2024-09-10 00:03:30.879 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-09-10 00:03:30.879 +08:00 [DBG] Request did not match any endpoints
+2024-09-10 00:03:30.879 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-10 00:03:31.055 +08:00 [DBG] Connection id "0HN6GT3PBM4GJ" completed keep alive response.
+2024-09-10 00:03:31.055 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 176.3458ms
+2024-09-10 00:03:34.288 +08:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5102/api/v1/user_service/user/cancel/7 - null null
+2024-09-10 00:03:34.292 +08:00 [DBG] 1 candidate(s) found for the request path '/api/v1/user_service/user/cancel/7'
+2024-09-10 00:03:34.293 +08:00 [DBG] Endpoint 'user_service_api.Controllers.UserController.DeleteUser (user_service_api)' with route pattern 'api/v1/user_service/user/cancel/{id}' is valid for the request path '/api/v1/user_service/user/cancel/7'
+2024-09-10 00:03:34.294 +08:00 [DBG] Request matched endpoint 'user_service_api.Controllers.UserController.DeleteUser (user_service_api)'
+2024-09-10 00:03:34.295 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-10 00:03:34.295 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-09-10 00:03:34.295 +08:00 [INF] Executing endpoint 'user_service_api.Controllers.UserController.DeleteUser (user_service_api)'
+2024-09-10 00:03:34.308 +08:00 [INF] Route matched with {action = "DeleteUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Boolean]] DeleteUser(Int32) on controller user_service_api.Controllers.UserController (user_service_api).
+2024-09-10 00:03:34.309 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-10 00:03:34.309 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-10 00:03:34.310 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-10 00:03:34.310 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-10 00:03:34.310 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-10 00:03:34.311 +08:00 [DBG] Executing controller factory for controller user_service_api.Controllers.UserController (user_service_api)
+2024-09-10 00:03:34.517 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-10 00:03:34.892 +08:00 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.0' with options: ServerVersion=9.0.1-mysql 
+2024-09-10 00:03:34.899 +08:00 [DBG] Creating DbConnection.
+2024-09-10 00:03:34.902 +08:00 [DBG] Created DbConnection. (5ms).
+2024-09-10 00:03:35.081 +08:00 [DBG] Executed controller factory for controller user_service_api.Controllers.UserController (user_service_api)
+2024-09-10 00:03:35.084 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-09-10 00:03:35.085 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-09-10 00:03:35.086 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-09-10 00:03:35.086 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-09-10 00:03:35.086 +08:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-09-10 00:03:35.087 +08:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-09-10 00:03:35.212 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-10 00:03:35.214 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-09-10 00:03:35.214 +08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-09-10 00:03:35.214 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-10 00:03:35.214 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-10 00:03:35.215 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-10 00:03:35.215 +08:00 [INF] Executing OkObjectResult, writing value of type 'user_service_api.Dto.ApiResponse`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-10 00:03:35.223 +08:00 [INF] Executed action user_service_api.Controllers.UserController.DeleteUser (user_service_api) in 910.9373ms
+2024-09-10 00:03:35.223 +08:00 [INF] Executed endpoint 'user_service_api.Controllers.UserController.DeleteUser (user_service_api)'
+2024-09-10 00:03:35.225 +08:00 [DBG] Connection id "0HN6GT3PBM4GJ" completed keep alive response.
+2024-09-10 00:03:35.227 +08:00 [DBG] 'ApplicationDbContext' disposed.
+2024-09-10 00:03:35.230 +08:00 [DBG] Disposing connection to database 'tg_shoping' on server 'localhost'.
+2024-09-10 00:03:35.234 +08:00 [DBG] Disposed connection to database 'tg_shoping' on server 'localhost' (2ms).
+2024-09-10 00:03:35.235 +08:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5102/api/v1/user_service/user/cancel/7 - 200 64 application/json; charset=utf-8 946.7574ms
+2024-09-10 00:03:56.567 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/api/v1/user_service/user/7 - null null
+2024-09-10 00:03:56.568 +08:00 [DBG] 1 candidate(s) found for the request path '/api/v1/user_service/user/7'
+2024-09-10 00:03:56.568 +08:00 [DBG] Endpoint 'user_service_api.Controllers.UserController.UpdateUser (user_service_api)' with route pattern 'api/v1/user_service/user/{id}' is valid for the request path '/api/v1/user_service/user/7'
+2024-09-10 00:03:56.568 +08:00 [DBG] Request matched endpoint 'user_service_api.Controllers.UserController.UpdateUser (user_service_api)'
+2024-09-10 00:03:56.568 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-10 00:03:56.568 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-09-10 00:03:56.568 +08:00 [INF] Executing endpoint 'user_service_api.Controllers.UserController.UpdateUser (user_service_api)'
+2024-09-10 00:03:56.571 +08:00 [INF] Route matched with {action = "UpdateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[user_service_api.Dto.ApiResponse`1[user_service_api.Dto.UserRes]]] UpdateUser(Int32) on controller user_service_api.Controllers.UserController (user_service_api).
+2024-09-10 00:03:56.571 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-10 00:03:56.571 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-10 00:03:56.571 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-10 00:03:56.571 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-10 00:03:56.571 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-10 00:03:56.571 +08:00 [DBG] Executing controller factory for controller user_service_api.Controllers.UserController (user_service_api)
+2024-09-10 00:03:56.581 +08:00 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.0' with options: ServerVersion=9.0.1-mysql 
+2024-09-10 00:03:56.582 +08:00 [DBG] Creating DbConnection.
+2024-09-10 00:03:56.582 +08:00 [DBG] Created DbConnection. (0ms).
+2024-09-10 00:03:56.582 +08:00 [DBG] Executed controller factory for controller user_service_api.Controllers.UserController (user_service_api)
+2024-09-10 00:03:56.582 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-09-10 00:03:56.582 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-09-10 00:03:56.582 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-09-10 00:03:56.582 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-09-10 00:03:56.582 +08:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-09-10 00:03:56.583 +08:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-09-10 00:03:56.632 +08:00 [DBG] Compiling query expression: 
+'DbSet<UserInfo>()
+    .FirstOrDefault(e => EF.Property<int>(e, "Id") == __p_0)'
+2024-09-10 00:03:56.764 +08:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<UserInfo>(
+    asyncEnumerable: new SingleQueryingEnumerable<UserInfo>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: UserInfo.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: UserInfo.Address (string) MaxLength(255), 1], [Property: UserInfo.ApproveRejectReason (string) MaxLength(255), 2], [Property: UserInfo.ApproveStatus (ApproveStatus) Required, 3], [Property: UserInfo.Avatar (string) MaxLength(255), 4], [Property: UserInfo.CityCode (string) MaxLength(255), 5], [Property: UserInfo.CommunityId (int?), 6], [Property: UserInfo.CreatedAt (DateTime?), 7], [Property: UserInfo.CreatorId (int?), 8], [Property: UserInfo.DistrictCode (string) MaxLength(255), 9], [Property: UserInfo.Enable (Enable) Required, 10], [Property: UserInfo.IsDeleted (int?), 11], [Property: UserInfo.Password (string) Required MaxLength(255), 12], [Property: UserInfo.Phone (string) Required MaxLength(20), 13], [Property: UserInfo.ProvinceCode (string) MaxLength(255), 14], [Property: UserInfo.RoleId (int?), 15], [Property: UserInfo.StreetCode (string) MaxLength(255), 16], [Property: UserInfo.Username (string) Required MaxLength(255), 17] }
+            SELECT TOP(1) u.Id, u.Address, u.approve_reject_reason, u.approve_status, u.Avatar, u.city_code, u.community_id, u.created_at, u.creator_id, u.district_code, u.Enable, u.is_deleted, u.Password, u.Phone, u.province_code, u.role_id, u.street_code, u.Username
+            FROM users AS u
+            WHERE u.Id == @__p_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, UserInfo>, 
+        user_service_api.Models.ApplicationDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-09-10 00:03:56.790 +08:00 [DBG] Opening connection to database 'tg_shoping' on server 'localhost'.
+2024-09-10 00:03:56.794 +08:00 [DBG] Opened connection to database 'tg_shoping' on server 'localhost'.
+2024-09-10 00:03:56.802 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-10 00:03:56.805 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-10 00:03:56.807 +08:00 [DBG] Initialized DbCommand for 'ExecuteReader' (4ms).
+2024-09-10 00:03:56.812 +08:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Address`, `u`.`approve_reject_reason`, `u`.`approve_status`, `u`.`Avatar`, `u`.`city_code`, `u`.`community_id`, `u`.`created_at`, `u`.`creator_id`, `u`.`district_code`, `u`.`Enable`, `u`.`is_deleted`, `u`.`Password`, `u`.`Phone`, `u`.`province_code`, `u`.`role_id`, `u`.`street_code`, `u`.`Username`
+FROM `users` AS `u`
+WHERE `u`.`Id` = @__p_0
+LIMIT 1
+2024-09-10 00:03:56.823 +08:00 [INF] Executed DbCommand (12ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Address`, `u`.`approve_reject_reason`, `u`.`approve_status`, `u`.`Avatar`, `u`.`city_code`, `u`.`community_id`, `u`.`created_at`, `u`.`creator_id`, `u`.`district_code`, `u`.`Enable`, `u`.`is_deleted`, `u`.`Password`, `u`.`Phone`, `u`.`province_code`, `u`.`role_id`, `u`.`street_code`, `u`.`Username`
+FROM `users` AS `u`
+WHERE `u`.`Id` = @__p_0
+LIMIT 1
+2024-09-10 00:03:56.848 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'UserInfo' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-10 00:03:56.871 +08:00 [DBG] Closing data reader to 'tg_shoping' on server 'localhost'.
+2024-09-10 00:03:56.872 +08:00 [DBG] A data reader for 'tg_shoping' on server 'localhost' is being disposed after spending 46ms reading results.
+2024-09-10 00:03:56.874 +08:00 [DBG] Closing connection to database 'tg_shoping' on server 'localhost'.
+2024-09-10 00:03:56.875 +08:00 [DBG] Closed connection to database 'tg_shoping' on server 'localhost' (0ms).
+2024-09-10 00:03:56.877 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-10 00:03:56.877 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-09-10 00:03:56.877 +08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-09-10 00:03:56.877 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-10 00:03:56.877 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-10 00:03:56.877 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-10 00:03:56.877 +08:00 [INF] Executing OkObjectResult, writing value of type 'user_service_api.Dto.ApiResponse`1[[user_service_api.Dto.UserRes, user_service_api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 00:03:56.889 +08:00 [INF] Executed action user_service_api.Controllers.UserController.UpdateUser (user_service_api) in 318.21ms
+2024-09-10 00:03:56.890 +08:00 [INF] Executed endpoint 'user_service_api.Controllers.UserController.UpdateUser (user_service_api)'
+2024-09-10 00:03:56.890 +08:00 [DBG] Connection id "0HN6GT3PBM4GJ" completed keep alive response.
+2024-09-10 00:03:56.890 +08:00 [DBG] 'ApplicationDbContext' disposed.
+2024-09-10 00:03:56.890 +08:00 [DBG] Disposing connection to database 'tg_shoping' on server 'localhost'.
+2024-09-10 00:03:56.890 +08:00 [DBG] Disposed connection to database 'tg_shoping' on server 'localhost' (0ms).
+2024-09-10 00:03:56.890 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/api/v1/user_service/user/7 - 200 375 application/json; charset=utf-8 322.7044ms
+2024-09-10 00:04:14.859 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5102/api/v1/user_service/user/all_user - application/json 60
+2024-09-10 00:04:14.860 +08:00 [DBG] 1 candidate(s) found for the request path '/api/v1/user_service/user/all_user'
+2024-09-10 00:04:14.860 +08:00 [DBG] Endpoint 'user_service_api.Controllers.UserController.GetUsers (user_service_api)' with route pattern 'api/v1/user_service/user/all_user' is valid for the request path '/api/v1/user_service/user/all_user'
+2024-09-10 00:04:14.860 +08:00 [DBG] Request matched endpoint 'user_service_api.Controllers.UserController.GetUsers (user_service_api)'
+2024-09-10 00:04:14.860 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-10 00:04:14.860 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-09-10 00:04:14.860 +08:00 [INF] Executing endpoint 'user_service_api.Controllers.UserController.GetUsers (user_service_api)'
+2024-09-10 00:04:14.861 +08:00 [INF] Route matched with {action = "GetUsers", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Microsoft.AspNetCore.Mvc.ActionResult`1[user_service_api.Dto.Pagination`1[user_service_api.Dto.UserRes]]]] GetUsers(user_service_api.Dto.UserPage) on controller user_service_api.Controllers.UserController (user_service_api).
+2024-09-10 00:04:14.862 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-10 00:04:14.862 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-10 00:04:14.862 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-10 00:04:14.862 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-10 00:04:14.862 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-10 00:04:14.862 +08:00 [DBG] Executing controller factory for controller user_service_api.Controllers.UserController (user_service_api)
+2024-09-10 00:04:14.874 +08:00 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.0' with options: ServerVersion=9.0.1-mysql 
+2024-09-10 00:04:14.875 +08:00 [DBG] Creating DbConnection.
+2024-09-10 00:04:14.876 +08:00 [DBG] Created DbConnection. (0ms).
+2024-09-10 00:04:14.876 +08:00 [DBG] Executed controller factory for controller user_service_api.Controllers.UserController (user_service_api)
+2024-09-10 00:04:14.876 +08:00 [DBG] Attempting to bind parameter 'userPage' of type 'user_service_api.Dto.UserPage' ...
+2024-09-10 00:04:14.876 +08:00 [DBG] Attempting to bind parameter 'userPage' of type 'user_service_api.Dto.UserPage' using the name '' in request data ...
+2024-09-10 00:04:14.877 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-09-10 00:04:14.880 +08:00 [DBG] Connection id "0HN6GT3PBM4GJ", Request id "0HN6GT3PBM4GJ:00000005": started reading request body.
+2024-09-10 00:04:14.881 +08:00 [DBG] Connection id "0HN6GT3PBM4GJ", Request id "0HN6GT3PBM4GJ:00000005": done reading request body.
+2024-09-10 00:04:14.885 +08:00 [DBG] JSON input formatter succeeded, deserializing to type 'user_service_api.Dto.UserPage'
+2024-09-10 00:04:14.885 +08:00 [DBG] Done attempting to bind parameter 'userPage' of type 'user_service_api.Dto.UserPage'.
+2024-09-10 00:04:14.885 +08:00 [DBG] Done attempting to bind parameter 'userPage' of type 'user_service_api.Dto.UserPage'.
+2024-09-10 00:04:14.885 +08:00 [DBG] Attempting to validate the bound parameter 'userPage' of type 'user_service_api.Dto.UserPage' ...
+2024-09-10 00:04:14.890 +08:00 [DBG] Done attempting to validate the bound parameter 'userPage' of type 'user_service_api.Dto.UserPage'.
+2024-09-10 00:04:14.893 +08:00 [DBG] Compiling query expression: 
+'DbSet<UserInfo>()
+    .Where(u => u != null && u.IsDeleted == (int?)0)
+    .Count()'
+2024-09-10 00:04:14.930 +08:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<int>(
+    asyncEnumerable: new SingleQueryingEnumerable<int>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT COUNT(*)
+            FROM users AS u
+            WHERE Not(u.Id == NULL) && (u.is_deleted == 0)), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, int>, 
+        user_service_api.Models.ApplicationDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-09-10 00:04:14.937 +08:00 [DBG] Opening connection to database 'tg_shoping' on server 'localhost'.
+2024-09-10 00:04:14.939 +08:00 [DBG] Opened connection to database 'tg_shoping' on server 'localhost'.
+2024-09-10 00:04:14.939 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-10 00:04:14.939 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-10 00:04:14.939 +08:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-10 00:04:14.939 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `users` AS `u`
+WHERE `u`.`is_deleted` = 0
+2024-09-10 00:04:14.940 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `users` AS `u`
+WHERE `u`.`is_deleted` = 0
+2024-09-10 00:04:14.946 +08:00 [DBG] Closing data reader to 'tg_shoping' on server 'localhost'.
+2024-09-10 00:04:14.946 +08:00 [DBG] A data reader for 'tg_shoping' on server 'localhost' is being disposed after spending 5ms reading results.
+2024-09-10 00:04:14.946 +08:00 [DBG] Closing connection to database 'tg_shoping' on server 'localhost'.
+2024-09-10 00:04:14.946 +08:00 [DBG] Closed connection to database 'tg_shoping' on server 'localhost' (0ms).
+2024-09-10 00:04:14.950 +08:00 [DBG] Compiling query expression: 
+'DbSet<UserInfo>()
+    .Where(u => u.IsDeleted == (int?)0)
+    .Skip(__p_0)
+    .Take(__p_1)'
+2024-09-10 00:04:14.952 +08:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-09-10 00:04:14.952 +08:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-09-10 00:04:14.953 +08:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<UserInfo>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: UserInfo.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: UserInfo.Address (string) MaxLength(255), 1], [Property: UserInfo.ApproveRejectReason (string) MaxLength(255), 2], [Property: UserInfo.ApproveStatus (ApproveStatus) Required, 3], [Property: UserInfo.Avatar (string) MaxLength(255), 4], [Property: UserInfo.CityCode (string) MaxLength(255), 5], [Property: UserInfo.CommunityId (int?), 6], [Property: UserInfo.CreatedAt (DateTime?), 7], [Property: UserInfo.CreatorId (int?), 8], [Property: UserInfo.DistrictCode (string) MaxLength(255), 9], [Property: UserInfo.Enable (Enable) Required, 10], [Property: UserInfo.IsDeleted (int?), 11], [Property: UserInfo.Password (string) Required MaxLength(255), 12], [Property: UserInfo.Phone (string) Required MaxLength(20), 13], [Property: UserInfo.ProvinceCode (string) MaxLength(255), 14], [Property: UserInfo.RoleId (int?), 15], [Property: UserInfo.StreetCode (string) MaxLength(255), 16], [Property: UserInfo.Username (string) Required MaxLength(255), 17] }
+        SELECT u.Id, u.Address, u.approve_reject_reason, u.approve_status, u.Avatar, u.city_code, u.community_id, u.created_at, u.creator_id, u.district_code, u.Enable, u.is_deleted, u.Password, u.Phone, u.province_code, u.role_id, u.street_code, u.Username
+        FROM users AS u
+        WHERE u.is_deleted == 0
+        OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, UserInfo>, 
+    user_service_api.Models.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-09-10 00:04:14.954 +08:00 [DBG] Opening connection to database 'tg_shoping' on server 'localhost'.
+2024-09-10 00:04:14.955 +08:00 [DBG] Opened connection to database 'tg_shoping' on server 'localhost'.
+2024-09-10 00:04:14.955 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-10 00:04:14.955 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-10 00:04:14.955 +08:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-10 00:04:14.955 +08:00 [DBG] Executing DbCommand [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Address`, `u`.`approve_reject_reason`, `u`.`approve_status`, `u`.`Avatar`, `u`.`city_code`, `u`.`community_id`, `u`.`created_at`, `u`.`creator_id`, `u`.`district_code`, `u`.`Enable`, `u`.`is_deleted`, `u`.`Password`, `u`.`Phone`, `u`.`province_code`, `u`.`role_id`, `u`.`street_code`, `u`.`Username`
+FROM `users` AS `u`
+WHERE `u`.`is_deleted` = 0
+LIMIT @__p_1 OFFSET @__p_0
+2024-09-10 00:04:14.956 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Address`, `u`.`approve_reject_reason`, `u`.`approve_status`, `u`.`Avatar`, `u`.`city_code`, `u`.`community_id`, `u`.`created_at`, `u`.`creator_id`, `u`.`district_code`, `u`.`Enable`, `u`.`is_deleted`, `u`.`Password`, `u`.`Phone`, `u`.`province_code`, `u`.`role_id`, `u`.`street_code`, `u`.`Username`
+FROM `users` AS `u`
+WHERE `u`.`is_deleted` = 0
+LIMIT @__p_1 OFFSET @__p_0
+2024-09-10 00:04:14.957 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'UserInfo' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-10 00:04:14.957 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'UserInfo' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-10 00:04:14.958 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'UserInfo' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-10 00:04:14.958 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'UserInfo' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-10 00:04:14.958 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'UserInfo' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-10 00:04:14.958 +08:00 [DBG] Closing data reader to 'tg_shoping' on server 'localhost'.
+2024-09-10 00:04:14.958 +08:00 [DBG] A data reader for 'tg_shoping' on server 'localhost' is being disposed after spending 1ms reading results.
+2024-09-10 00:04:14.958 +08:00 [DBG] Closing connection to database 'tg_shoping' on server 'localhost'.
+2024-09-10 00:04:14.958 +08:00 [DBG] Closed connection to database 'tg_shoping' on server 'localhost' (0ms).
+2024-09-10 00:04:14.958 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-10 00:04:14.958 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-09-10 00:04:14.958 +08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-09-10 00:04:14.958 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-10 00:04:14.959 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-10 00:04:14.959 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-10 00:04:14.959 +08:00 [INF] Executing OkObjectResult, writing value of type 'user_service_api.Dto.ApiResponse`1[[user_service_api.Dto.Pagination`1[[user_service_api.Dto.UserRes, user_service_api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], user_service_api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 00:04:14.960 +08:00 [INF] Executed action user_service_api.Controllers.UserController.GetUsers (user_service_api) in 98.367ms
+2024-09-10 00:04:14.960 +08:00 [INF] Executed endpoint 'user_service_api.Controllers.UserController.GetUsers (user_service_api)'
+2024-09-10 00:04:14.960 +08:00 [DBG] Connection id "0HN6GT3PBM4GJ" completed keep alive response.
+2024-09-10 00:04:14.960 +08:00 [DBG] 'ApplicationDbContext' disposed.
+2024-09-10 00:04:14.960 +08:00 [DBG] Disposing connection to database 'tg_shoping' on server 'localhost'.
+2024-09-10 00:04:14.960 +08:00 [DBG] Disposed connection to database 'tg_shoping' on server 'localhost' (0ms).
+2024-09-10 00:04:14.960 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5102/api/v1/user_service/user/all_user - 200 1741 application/json; charset=utf-8 101.0219ms
